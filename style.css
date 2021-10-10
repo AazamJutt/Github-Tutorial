@@ -1,17 +1,21 @@
-body{
-    background-color: #282a2e;
-    color: #d1d1d1;
-    font-family: 'Roboto Mono', monospace;
+body {
+  background-color: #282a2e;
+  color: #d1d1d1;
+  font-family: "Roboto Mono", monospace;
 }
-.content{
-    padding: 20px 200px;
+.content {
+  padding: 20px 200px;
 }
-img{
-    padding: 20px;
+img {
+  padding: 20px;
 }
-b{
+b {
+  color: #2abf59;
+}
+hr {
+  border-top: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+a{
     color: #2abf59;
-}
-hr{
-    border-top: 1px solid #d1d1d1 ;
 }
