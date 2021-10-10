@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Github-Tutorial</title>
   </head>
+
   <body>
     <h1>Git</h1>
     <ul>
@@ -31,47 +32,98 @@
       This is the time to Crate a Repository.
     </p>
     <ul>
-        <li>Create a Folder you want to Intilize as a Repostiry.</li>
-        <li>Open Comand Prompt and Navigate to that Folder, you just created. </li>
-        <li>Now in the terminal type <b>"git init"</b> this will initialize your folder as a GitHub Repository.</li>
+      <li>Create a Folder you want to Intilize as a Repostiry.</li>
+      <li>Open Comand Prompt and Navigate to that Folder, you just created.</li>
+      <li>
+        Now in the terminal type <b>"git init"</b> this will initialize your
+        folder as a GitHub Repository.
+      </li>
     </ul>
-    <img src="assets/init.png" alt="git init command">
+    <img src="assets/init.png" alt="git init command" />
     <h3>Adding Changes</h3>
-    <p>After you have intialized a repository, you can create some files make some chnages to them.</p>
+    <p>
+      After you have intialized a repository, you can create some files make
+      some chnages to them.
+    </p>
     <ul>
-      <li>After making some changes. Type <b>"git add ."</b> to register all your changes to branching.</li>
+      <li>
+        After making some changes. Type <b>"git add ."</b> to register all your
+        changes to branching.
+      </li>
     </ul>
-    <img src="assets/add.png" alt="">
+    <img src="assets/add.png" alt="" />
     <h3>Checking Status</h3>
-    <p>After you have added you changes to branching. You can check status of your files that are changes and ready to commit. </p>
+    <p>
+      After you have added you changes to branching. You can check status of
+      your files that are changes and ready to commit.
+    </p>
     <p>Type <b>"git staus"</b> and it shows all currently modiefied files.</p>
-    <img src="assets/status.png" alt="">
+    <img src="assets/status.png" alt="" />
     <h3>Making Commit</h3>
-    <p>After yo have intialized a repository, you can create some files and commit all these chnages to your repository.</p>
+    <p>
+      After yo have intialized a repository, you can create some files and
+      commit all these chnages to your repository.
+    </p>
     <ul>
-      <li>First of all create a File and write some lines in it. </li>
-      <li>After making some changes. Type <b>"git add ."</b> to register all your changes to branching.</li>
-      <li>Than type <b>"git commit -m <'message'>" to commit all your changs. </b></li>
+      <li>First of all create a File and write some lines in it.</li>
+      <li>
+        After making some changes. Type <b>"git add ."</b> to register all your
+        changes to branching.
+      </li>
+      <li>
+        Than type <b>"git commit -m <'message'>" to commit all your changs. </b>
+      </li>
     </ul>
-    <img src="assets/commit.png" alt="git add-commit">
+    <img src="assets/commit.png" alt="git add-commit" />
     <h3>Checking Recent Commits</h3>
-    <p>After you have made some chnages and commited them. You can view information about recent commits i.e; Who made the commit, their email and Date time of the commit.</p>
+    <p>
+      After you have made some chnages and commited them. You can view
+      information about recent commits i.e; Who made the commit, their email and
+      Date time of the commit.
+    </p>
     <ul>
-      <li>Type  <b>"git log"</b> and it shows all information. </li>
+      <li>Type <b>"git log"</b> and it shows all information.</li>
     </ul>
-    <img src="assets/log.png" alt="">
+    <img src="assets/log.png" alt="" />
     <h1>Github</h1>
-    <p>If you are working with a team on a same project and all of them need access to up-to-date files at all times, Githb is something that can solve your problems.
-      GitHub is a cloud storage platform. Here you can keep all your neccesary files as repositories and you an your peers can work on them simultaneously
-      and have acces to all the updated files at all times, anywhere.
+    <p>
+      If you are working with a team on a same project and all of them need
+      access to up-to-date files at all times, Githb is something that can solve
+      your problems. GitHub is a cloud storage platform. Here you can keep all
+      your neccesary files as repositories and you an your peers can work on
+      them simultaneously and have acces to all the updated files at all times,
+      anywhere.
     </p>
     <h3>Creating GitHub Repository</h3>
     <ul>
-      <li>To create a GitHub repository, you must have a github account and you must be logged in.</li>
-      <li>After logging in to you GitHub account, on the top write corner next to your profile icon, click the + sign and select "New Repository"</li>
-      <img src="assets/new-repo.png" alt=""><br>
-      <li>Now give your repository a name, initialize it with a README (just so it isn't empty) and click "Create Repository".</li>
-      <img src="assets/creating-new-repo.png" alt="">
+      <li>
+        To create a GitHub repository, you must have a github account and you
+        must be logged in.
+      </li>
+      <li>
+        After logging in to you GitHub account, on the top write corner next to
+        your profile icon, click the + sign and select "New Repository"
+      </li>
+      <img src="assets/new-repo.png" alt="" /><br />
+      <li>
+        Now give your repository a name, initialize it with a README (just so it
+        isn't empty) and click "Create Repository".
+      </li>
+      <img src="assets/creating-new-repo.png" alt="" />
+    </ul>
+    <h3>Linking GitHub and Git Repositories</h3>
+    <p>
+      After you have created you GitHub repository and also a Git repository on
+      your local machine. You can now link them both and keep all you changes on
+      local and remote repository, synchronized.
+    </p>
+    <p>Follow these Steps to link your repositories.</p>
+    <ul>
+      <li>Copy your Remote repository link.</li>
+      <img src="assets/link-repo.png" alt="">
+      <li>Now head over to the termianl, and navigate the folder you intialized as a local repository.</li>
+      <li>Type <b>"git remote add <'your repo linl'> origin main"</b></li>
+      <img src="assets/git-add-remote.png" alt="">
     </ul>
   </body>
 </html>
