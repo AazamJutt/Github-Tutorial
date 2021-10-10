@@ -8,13 +8,11 @@
   </head>
 
   <body>
-    <h1>Git</h1>
-    <ul>
-      <li>
-        This Webpage will help ou get acquainted with Git and GitHub, Version
-        Control Systme (VCS).
-      </li>
+    <h1>Git</h1><hr>
+    <p>This Webpage will help ou get acquainted with Git and GitHub, Version
+      Control Systme (VCS).</p>
       <h3>Getting Started with Git</h3>
+    <ul> 
       <li>Follow this tutorial step by step:</li>
       <li>
         First of all you need to download Git (for Windows/Linux/MacOS).
@@ -85,7 +83,7 @@
       <li>Type <b>"git log"</b> and it shows all information.</li>
     </ul>
     <img src="assets/log.png" alt="" />
-    <h1>Github</h1>
+    <h1>Github</h1><hr>
     <p>
       If you are working with a team on a same project and all of them need
       access to up-to-date files at all times, Githb is something that can solve
@@ -122,8 +120,17 @@
       <li>Copy your Remote repository link.</li>
       <img src="assets/link-repo.png" alt="">
       <li>Now head over to the termianl, and navigate the folder you intialized as a local repository.</li>
-      <li>Type <b>"git remote add <'your repo linl'> origin main"</b></li>
+      <li>Type <b>"git remote add origin <'your repo linl'> origin main"</b></li>
       <img src="assets/git-add-remote.png" alt="">
     </ul>
-  </body>
+    <h2>Pushing Commits to Remote Repository</h2>
+    <p>As you have your local repository set up and also have some commits on it. Now you can push all you local commits to your remote repository.</p>
+    <p>Follow these Steps:</p>
+    <ul>
+      <li>Type <b>"git push -u origin master"</b>. This will push all your local commits to remote repository.</li>
+      <img src="assets/push.png" alt="">
+      <li>Now if you see you remote repository. It should have all your files.</li>
+      <img src="assets/remote-repo-view.png" alt="">
+    </ul><hr>
+    </body>
 </html>
