@@ -2,9 +2,11 @@ body {
   background-color: #282a2e;
   color: #d1d1d1;
   font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-content: center;
 }
 .content {
-  padding: 20px 200px;
+  padding: 2rem 10%;
 }
 img {
   padding: 20px;
