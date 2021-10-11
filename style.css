@@ -2,14 +2,14 @@ body {
   background-color: #282a2e;
   color: #d1d1d1;
   font-family: "Roboto Mono", monospace;
-  display: flex;
-  align-content: center;
 }
 .content {
   padding: 2% 10%;
 }
 img {
-  padding: 20px;
+  padding: 2%;
+  width: auto;
+  height: auto;
 }
 b {
   color: #2abf59;
